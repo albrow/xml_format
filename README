@@ -1,4 +1,7 @@
-A simple command line tool for auto-formatting xml documents with Ruby and libxml.
+A simple command line tool for auto-formatting (tabs and linebreaks) xml documents with Ruby and libxml.
+
+Required gems:
+	'libxml'
 
 Basic usage:
 	ruby xml_format.rb file1.xml file2.xml ...
